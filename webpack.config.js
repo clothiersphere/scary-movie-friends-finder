@@ -2,7 +2,7 @@ module.exports = {
   entry: [
     'webpack-dev-server/client?http://localhost:8080',
     'webpack/hot/only-dev-server',
-    './app/index.js'
+    './src/index.js'
   ],
   module: {
     loaders: [{
