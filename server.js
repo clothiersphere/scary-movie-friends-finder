@@ -9,6 +9,8 @@ app.get('/', (req, res) => {
 
 app.get('/api/getMovies', smff.getMovies);
 
+app.get('/api/getGenre', smff.getGenre);
+
 app.listen(1234, () => {
   console.log('%s listening at %d', app.name, 1234);
 });
