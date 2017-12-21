@@ -23,7 +23,6 @@ const getGenre = async (req, res, next) => {
 // { id: 53, name: 'Thriller' },
 // { id: 80, name: 'Crime' },
 
-
 module.exports = {
   getMovies,
   getGenre,
