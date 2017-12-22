@@ -14,10 +14,12 @@ class App extends Component {
   }
 
   render() {
+    const { movies } = this.props;
+
     return (
       <div className="App">
         <Header />
-        <Main />
+        <Main {...{ movies }}/>
       </div>
     );
   }
